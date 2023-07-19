@@ -1,0 +1,95 @@
+:root {
+    accent-color: #000;
+    --primary-color: #A9090D;
+    --secundary-color: #610304;
+}
+
+body {
+    font-family: 'Georama', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    ;
+}
+
+
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+.section-bg {
+    padding: 120px 0;
+    color: #fff;
+    background-color: white;
+}
+
+.section-bg:before {
+    content: "";
+    background: var(--primary-color);
+    position: absolute;
+    bottom: 60px;
+    top: 60px;
+    left: 0;
+    right: 0;
+    transform: skewY(3deg);
+
+}
+
+
+/*--------------------------------------------------------------
+  # Services
+  --------------------------------------------------------------*/
+.services .icon-box {
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 6px;
+    background: white;
+    transition: 0.3s;
+    position: relative;
+}
+
+
+.services .icon-box i {
+    float: left;
+    color: var(--primary-color);
+    font-size: 40px;
+    line-height: 0;
+}
+
+.services .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+}
+
+.services .icon-box h4 a {
+    color: black;
+    transition: transform 0.3s;
+}
